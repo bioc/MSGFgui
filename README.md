@@ -18,8 +18,9 @@ Installation
 MSGFgui and it's sister package MSGFplus are part of [Bioconductor](http://www.bioconductor.org/packages/release/bioc/html/MSGFgui.html) and can be installed through that repository. Instructions are as follows:
 
 ```R
-source("http://bioconductor.org/biocLite.R")
-biocLite('MSGFgui')
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install('MSGFgui')
 ```
 
 Usage
