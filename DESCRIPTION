@@ -1,7 +1,7 @@
 Package: MSGFgui
 Type: Package
 Title: A shiny GUI for MSGFplus
-Version: 1.17.0
+Version: 1.17.1
 Date: 2015-02-03
 Author: Thomas Lin Pedersen
 Maintainer: Thomas Lin Pedersen <thomasp85@gmail.com>
@@ -13,7 +13,7 @@ Description: This package makes it possible to perform analyses using
     integrate the gui into other workflows.
 License: GPL (>= 2)
 LazyLoad: yes
-biocViews: MassSpectrometry, Proteomics, GUI, Visualization
+biocViews: ImmunoOncology, MassSpectrometry, Proteomics, GUI, Visualization
 VignetteBuilder: knitr
 Depends:
     mzR,
