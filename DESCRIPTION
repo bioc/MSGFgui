@@ -1,7 +1,7 @@
 Package: MSGFgui
 Type: Package
 Title: A shiny GUI for MSGFplus
-Version: 1.27.0
+Version: 1.27.1
 Date: 2015-02-03
 Author: Thomas Lin Pedersen
 Maintainer: Thomas Lin Pedersen <thomasp85@gmail.com>
@@ -32,3 +32,5 @@ Collate:
     'server_functions.R'
     'server.R'
     'MSGFgui.R'
+    'zzz.R'
+PackageStatus: Deprecated
